@@ -1,5 +1,7 @@
 * {
     background-color: blanchedalmond;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 #quadeca_album_cover {
@@ -8,19 +10,27 @@
 }
 #jaws_push_pull {
     border-radius: 50%;
-    height: 300px
+    height: 300px;
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
+    padding-top: 25px;
+    text-align: center;
 }
 h2{
     font-family: 'Courier New', Courier, monospace;
+    margin: 25px;
+    padding-left: 25px;
+    border-left: darkgoldenrod;
+    border-style: hidden hidden hidden solid;
 }
 a{
     font-size: 15px;
 }
 ul {
     color:peru;
+    width: 95%;
+    margin: auto;
 }
 ol{
     color: darkgrey;
