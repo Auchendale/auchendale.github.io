@@ -11,7 +11,7 @@
 }
 #jaws_push_pull {
     border-radius: 50%;
-    height: 300px;
+    height: 200px;
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
@@ -48,6 +48,23 @@ ol{
     font-size: 10px
     
 }
-#grid2{
-    font-family:'Courier New', Courier, monospace
+.grid_layout{
+    display: grid;
+    border: 2px black;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 100px 200px;
+}
+.layout1{
+    grid-column: 1;
+}
+.layout2{
+    grid-row: 2;
+}
+.layout3{
+    grid-column: 4;
+    grid-row: 3;
+    bottom: 0px;
+}
+.layout4{
+   grid-area: 3 / 2 / 3 / 3;
 }
